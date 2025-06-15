@@ -1,25 +1,37 @@
-🚚 Advanced EDA on Automotive Auction Data – Fleet Procurement Analysis
-Overview:
-This project explores the U.S. automotive auction market to support fleet vehicle procurement for service contractors. Due to a spike in demand and supplier shortages, the analysis aims to uncover cost-effective sources for Ford F150 trucks using real-world auction data.
 
-Goals:
+# 🚗 Advanced EDA: Used Car Auction Market Analysis
 
-Understand the structure of the used car auction industry
+## 📍 Project Summary
 
-Analyze pricing trends across locations and time
+This project explores the U.S. used car auction industry with a focus on fleet procurement. The goal is to support a client who leases Ford F150s to contractors and is facing supply shortages from traditional sources. The analysis identifies cost-effective procurement opportunities from automotive auctions using real-world data.
 
-Identify where Ford F150s are sold below their MMR (Manheim Market Report) value
+## 🎯 Objectives
 
-Recommend high-volume, low-cost auction hubs for bulk purchasing
+- Understand trends in the used car auction market  
+- Analyze factors influencing vehicle selling price  
+- Compare auction selling prices against MMR (Manheim Market Report) values  
+- Locate high-volume auction regions offering Ford F150s below market price
 
-Key Techniques Used:
+## 🛠️ Tools & Libraries
 
-📊 Advanced EDA with Pandas & Seaborn
+- **Python** (Pandas, NumPy)
+- **Seaborn** & **Matplotlib** for advanced visualizations
+- **Jupyter Notebook** for exploration and presentation
 
-🔍 Visualized price vs. condition, year, and odometer
+## 📊 Key Visualizations
 
-📉 Correlation and regression using lmplot and heatmap
+- Pair plots of vehicle attributes  
+- Histograms of vehicle year, condition, and odometer  
+- Linear regression (`lmplot`) of price vs. key variables  
+- Heatmaps of correlation between features  
+- Grouped bar charts for average price and count by date/location
 
-🗺️ Grouped statistics by auction date, region, and vehicle condition
+## 🔎 Key Findings
 
-🔍 Deep dive into Ford F150 listings by comparing sellingprice vs mmr
+- Certain regions (e.g., Utah) offer Ford F150s significantly below their MMR value  
+- Condition and odometer are strong indicators of price  
+- Many cars are sold below market value even when in good condition  
+- Some dates show a spike in auction volume, indicating procurement opportunities
+
+## 📁 Folder Structure
+
